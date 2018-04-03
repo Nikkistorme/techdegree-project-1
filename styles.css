@@ -70,13 +70,20 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid blue;
   transition: all .5s;
   object-fit: cover;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border-color: green;
 }
+
+main .hero-with-friends {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -130,6 +137,20 @@ ul.history {
   border-radius: 6px;
   display: inline-block;
   background: #0399ff;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+ul.hobbies {
+  padding: 0;
+  text-align: left;
+}
+
+.hobbies li {
+  border-radius: 6px;
+  display: inline-block;
+  background: green;
   color: white;
   padding: 5px 10px;
   margin: 2px;
